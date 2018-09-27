@@ -1,3 +1,10 @@
+/**
+ * C11A-1: The Cat class 
+ * Creates a cat object to print on screen
+ * 
+ * @author Zachary Aparicio and Zachary Chaney
+ */
+
 import javax.swing.JPanel;
 import java.awt.*;
 import java.awt.geom.*;

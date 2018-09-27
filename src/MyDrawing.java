@@ -1,7 +1,15 @@
+/**
+ * C11A-1: The myDrawing class
+ * Creates a JFrame and prints a cat 
+ * 
+ * @author Zachary Aparicio and Zachary Chaney
+ */
+
 import java.awt.Graphics;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+
 
 
 public class MyDrawing extends JPanel {
@@ -14,7 +22,7 @@ public class MyDrawing extends JPanel {
 	// paintComponent is called automatically when the frame needs
 	// to display (e.g., when the program starts)
 	public void paintComponent(Graphics g) {
-		cat.draw(g, 50, 50);
+		cat.draw(g, 100, 75);
 	}
 	
 	/**
